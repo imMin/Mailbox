@@ -4,6 +4,7 @@ CodePath week3
 Time spent: 16 hours spent in total
 
 Complete user stories: 
+
 On dragging the message left...
 * [x] Initially, the revealed background color should be gray.
 * [x] As the reschedule icon is revealed, it should start semi-transparent and become fully opaque. If released at this point, the message should return to its initial position.
