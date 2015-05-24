@@ -13,6 +13,8 @@ On dragging the message left...
 * [x] After 260 pts, the icon should change to the list icon and the background color should change to brown.
 * [x] Upon release, the message should continue to reveal the brown background. When the animation it complete, it should show the list options.
 * [x] User can tap to dismissing the reschedule or list options. After the reschedule or list options are dismissed, you should see the message finish the hide animation.
+ 
+
 On dragging the message right...
 * [x] Initially, the revealed background color should be gray.
 * [x] As the archive icon is revealed, it should start semi-transparent and become fully opaque. If released at this point, the message should return to its initial position.
