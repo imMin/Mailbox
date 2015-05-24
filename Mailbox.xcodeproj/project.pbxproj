@@ -13,6 +13,7 @@
 		6F3FC4051B0C695300836042 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3FC4041B0C695300836042 /* Images.xcassets */; };
 		6F3FC4081B0C695300836042 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F3FC4061B0C695300836042 /* LaunchScreen.xib */; };
 		6F3FC4141B0C695300836042 /* MailboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3FC4131B0C695300836042 /* MailboxTests.swift */; };
+		6F3FC44C1B0C6B5C00836042 /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3FC44B1B0C6B5C00836042 /* MailboxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6F3FC40D1B0C695300836042 /* MailboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3FC4121B0C695300836042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F3FC4131B0C695300836042 /* MailboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailboxTests.swift; sourceTree = "<group>"; };
+		6F3FC44B1B0C6B5C00836042 /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				6F3FC3FD1B0C695300836042 /* AppDelegate.swift */,
 				6F3FC3FF1B0C695300836042 /* ViewController.swift */,
 				6F3FC4011B0C695300836042 /* Main.storyboard */,
+				6F3FC44B1B0C6B5C00836042 /* MailboxViewController.swift */,
 				6F3FC4041B0C695300836042 /* Images.xcassets */,
 				6F3FC4061B0C695300836042 /* LaunchScreen.xib */,
 				6F3FC3FB1B0C695300836042 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				6F3FC4001B0C695300836042 /* ViewController.swift in Sources */,
 				6F3FC3FE1B0C695300836042 /* AppDelegate.swift in Sources */,
+				6F3FC44C1B0C6B5C00836042 /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Mailbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Mailbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +415,7 @@
 				6F3FC4191B0C695300836042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F3FC41A1B0C695300836042 /* Build configuration list for PBXNativeTarget "MailboxTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +424,7 @@
 				6F3FC41C1B0C695300836042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
